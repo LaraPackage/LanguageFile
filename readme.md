@@ -1,5 +1,8 @@
 # Laravel Language File Creator
 
+[![Build Status](https://travis-ci.org/LaraPackage/LanguageFile.svg)](https://travis-ci.org/LaraPackage/LanguageFile) 
+
+
 ## About
 
 This package creates a ready-to-go language file for Laravel from an array or a traversable object (i.e. collections).
