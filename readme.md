@@ -1,6 +1,11 @@
 # Laravel Language File Creator
 
 [![Build Status](https://travis-ci.org/LaraPackage/LanguageFile.svg)](https://travis-ci.org/LaraPackage/LanguageFile) 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/3717a477-28d4-4688-8764-98e2e48f5e9e/mini.png)](https://insight.sensiolabs.com/projects/3717a477-28d4-4688-8764-98e2e48f5e9e) 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LaraPackage/LanguageFile/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LaraPackage/LanguageFile/?branch=master) 
+[![Code Coverage](https://scrutinizer-ci.com/g/LaraPackage/LanguageFile/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/LaraPackage/LanguageFile/?branch=master) 
+[![Latest Stable Version](https://poser.pugx.org/larapackage/languagefile/v/stable)](https://packagist.org/packages/larapackage/languagefile) 
+[![License](https://poser.pugx.org/larapackage/languagefile/license)](https://packagist.org/packages/larapackage/languagefile)
 
 
 ## About
