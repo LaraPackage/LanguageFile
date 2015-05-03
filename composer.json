@@ -1,5 +1,5 @@
 {
-  "name": "LaraPackage/LanguageFile",
+  "name": "larapackage/languagefile",
   "description": "A simple package to easily create language files in Laravel Framework",
   "minimum-stability": "dev",
   "license": "MIT",
