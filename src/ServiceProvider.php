@@ -10,8 +10,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
      */
     public function register()
     {
-        \App::bind('LaraPackage\LanguageFile\Creator', function()
-        {
+        \App::bind('LaraPackage\LanguageFile\Creator', function () {
             return new Creator();
         });
     }

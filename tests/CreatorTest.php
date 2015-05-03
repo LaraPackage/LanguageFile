@@ -1,6 +1,7 @@
 <?php
 
-class CreatorTest extends PHPUnit_Framework_TestCase {
+class CreatorTest extends PHPUnit_Framework_TestCase
+{
 
     protected $testArray = ['one' => 'value', 'two' => 'value', 'three' => 'value'];
 
@@ -26,11 +27,11 @@ class CreatorTest extends PHPUnit_Framework_TestCase {
 
     protected function expected()
     {
-        return '<?php' . PHP_EOL . PHP_EOL .
-        'return [' . PHP_EOL .
-        "\t" . "'one' => 'value'," . PHP_EOL .
-        "\t" . "'two' => 'value'," . PHP_EOL .
-        "\t" . "'three' => 'value'," . PHP_EOL .
+        return '<?php'.PHP_EOL.PHP_EOL.
+        'return ['.PHP_EOL.
+        "\t"."'one' => 'value',".PHP_EOL.
+        "\t"."'two' => 'value',".PHP_EOL.
+        "\t"."'three' => 'value',".PHP_EOL.
         '];';
     }
 }
