@@ -1,0 +1,23 @@
+{
+  "name": "LaraPackage/LanguageFile",
+  "description": "A simple package to easily create language files in Laravel Framework",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andy Wendt",
+      "email": "andy@awendt.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaraPackage\\LanguageFile\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "5.0.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.6.*"
+  }
+}
