@@ -17,7 +17,7 @@ class Creator
             $iterable = iterator_to_array($iterable);
         }
         $middle = implode(PHP_EOL, array_map(function ($value, $key) {
-            return "\t"."'$key'".' => '."'$value',";
+            return "\t"."'$key' => '".addslashes($value)."',";
         }, $iterable, array_keys($iterable)));
 
         $end = PHP_EOL.'];';
